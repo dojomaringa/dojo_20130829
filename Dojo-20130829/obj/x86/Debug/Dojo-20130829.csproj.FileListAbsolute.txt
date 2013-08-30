@@ -1,0 +1,4 @@
+C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\bin\Debug\Dojo-20130829.exe
+C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\bin\Debug\Dojo-20130829.pdb
+C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\obj\x86\Debug\Dojo-20130829.exe
+C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\obj\x86\Debug\Dojo-20130829.pdb

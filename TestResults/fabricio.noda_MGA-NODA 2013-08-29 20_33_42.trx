@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f21c5476-1a85-4581-a2ad-2f32b1d0afb9" name="fabricio.noda@MGA-NODA 2013-08-29 20:33:42" runUser="BENNER\fabricio.noda" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856062cb-b0a4-493e-8a3d-c547d0aec54d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="fabricio.noda_MGA-NODA 2013-08-29 20_33_42">
+      <DeploymentItem filename="C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\bin\Debug\Dojo-20130829.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-29T20:33:42.8135581-03:00" queuing="2013-08-29T20:33:42.8825581-03:00" start="2013-08-29T20:33:42.8875581-03:00" finish="2013-08-29T20:33:43.0585581-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="saque422" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="c92d6d82-b7c8-8c54-c07b-b9d0383e981c">
+      <Execution id="cdc18cd3-4ff9-49df-8551-26e467ab46a9" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque422" />
+    </UnitTest>
+    <UnitTest name="saque13" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5">
+      <Execution id="13db1089-f685-49f1-b9c1-1a066d1ebf75" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque13" />
+    </UnitTest>
+    <UnitTest name="saque10retorna10" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="a8b3812e-5983-9ea9-c9b6-09fd99966ce5">
+      <Execution id="a80c0dbe-b98e-4836-b914-03390187eb80" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque10retorna10" />
+    </UnitTest>
+    <UnitTest name="saque30retorna1Nota20E1Nota10" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="f2901349-0bc0-781e-978f-4e8dfa116aaa">
+      <Execution id="40e19b55-78ad-4b75-97c1-798d4ffab7f5" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque30retorna1Nota20E1Nota10" />
+    </UnitTest>
+    <UnitTest name="saque45retorna2Nota20E1Nota5" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="ab9b4e93-05ac-019a-7b99-d9d46c245f94">
+      <Execution id="354dfd00-f5f4-4eff-bde2-d17be599d9ad" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque45retorna2Nota20E1Nota5" />
+    </UnitTest>
+    <UnitTest name="saque112" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="0c515bf2-cacb-b50a-9e88-241819e6260b">
+      <Execution id="bf2357ab-a17f-4c8b-80eb-6525960f789b" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque112" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0c515bf2-cacb-b50a-9e88-241819e6260b" executionId="bf2357ab-a17f-4c8b-80eb-6525960f789b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5" executionId="13db1089-f685-49f1-b9c1-1a066d1ebf75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8b3812e-5983-9ea9-c9b6-09fd99966ce5" executionId="a80c0dbe-b98e-4836-b914-03390187eb80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab9b4e93-05ac-019a-7b99-d9d46c245f94" executionId="354dfd00-f5f4-4eff-bde2-d17be599d9ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c92d6d82-b7c8-8c54-c07b-b9d0383e981c" executionId="cdc18cd3-4ff9-49df-8551-26e467ab46a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" executionId="40e19b55-78ad-4b75-97c1-798d4ffab7f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bf2357ab-a17f-4c8b-80eb-6525960f789b" testId="0c515bf2-cacb-b50a-9e88-241819e6260b" testName="saque112" computerName="MGA-NODA" duration="00:00:00.0239672" startTime="2013-08-29T20:33:42.8885581-03:00" endTime="2013-08-29T20:33:43.0325581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf2357ab-a17f-4c8b-80eb-6525960f789b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque112 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque112() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13db1089-f685-49f1-b9c1-1a066d1ebf75" testId="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5" testName="saque13" computerName="MGA-NODA" duration="00:00:00.0014381" startTime="2013-08-29T20:33:43.0335581-03:00" endTime="2013-08-29T20:33:43.0365581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13db1089-f685-49f1-b9c1-1a066d1ebf75">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque13 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque13() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a80c0dbe-b98e-4836-b914-03390187eb80" testId="a8b3812e-5983-9ea9-c9b6-09fd99966ce5" testName="saque10retorna10" computerName="MGA-NODA" duration="00:00:00.0013762" startTime="2013-08-29T20:33:43.0365581-03:00" endTime="2013-08-29T20:33:43.0395581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a80c0dbe-b98e-4836-b914-03390187eb80">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque10retorna10 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque10retorna10() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="354dfd00-f5f4-4eff-bde2-d17be599d9ad" testId="ab9b4e93-05ac-019a-7b99-d9d46c245f94" testName="saque45retorna2Nota20E1Nota5" computerName="MGA-NODA" duration="00:00:00.0014192" startTime="2013-08-29T20:33:43.0405581-03:00" endTime="2013-08-29T20:33:43.0435581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="354dfd00-f5f4-4eff-bde2-d17be599d9ad">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque45retorna2Nota20E1Nota5 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque45retorna2Nota20E1Nota5() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cdc18cd3-4ff9-49df-8551-26e467ab46a9" testId="c92d6d82-b7c8-8c54-c07b-b9d0383e981c" testName="saque422" computerName="MGA-NODA" duration="00:00:00.0013696" startTime="2013-08-29T20:33:43.0435581-03:00" endTime="2013-08-29T20:33:43.0465581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdc18cd3-4ff9-49df-8551-26e467ab46a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque422 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque422() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40e19b55-78ad-4b75-97c1-798d4ffab7f5" testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" testName="saque30retorna1Nota20E1Nota10" computerName="MGA-NODA" duration="00:00:00.0013338" startTime="2013-08-29T20:33:43.0475581-03:00" endTime="2013-08-29T20:33:43.0505581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40e19b55-78ad-4b75-97c1-798d4ffab7f5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DojoTest.ProgramTest.saque30retorna1Nota20E1Nota10 threw exception: 
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.</Message>
+          <StackTrace>    em Dojo_20130829.Program.saque(Int32 p) na C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\Program.cs:linha 27
+   em DojoTest.ProgramTest.saque30retorna1Nota20E1Nota10() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

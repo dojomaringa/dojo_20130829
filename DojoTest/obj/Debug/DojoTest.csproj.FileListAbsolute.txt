@@ -1,0 +1,7 @@
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\bin\Debug\DojoTest.dll
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\bin\Debug\DojoTest.pdb
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\bin\Debug\Dojo-20130829.exe
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\bin\Debug\Dojo-20130829.pdb
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\obj\Debug\DojoTest.csprojResolveAssemblyReference.cache
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\obj\Debug\DojoTest.dll
+C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\obj\Debug\DojoTest.pdb

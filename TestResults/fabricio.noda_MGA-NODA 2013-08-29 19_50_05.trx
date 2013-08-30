@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97cccfce-0401-4331-8ea5-337a7ab26296" name="fabricio.noda@MGA-NODA 2013-08-29 19:50:05" runUser="BENNER\fabricio.noda" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856062cb-b0a4-493e-8a3d-c547d0aec54d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="fabricio.noda_MGA-NODA 2013-08-29 19_50_05">
+      <DeploymentItem filename="C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\bin\Debug\Dojo-20130829.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-29T19:50:05.7697915-03:00" queuing="2013-08-29T19:50:05.8487994-03:00" start="2013-08-29T19:50:05.8517997-03:00" finish="2013-08-29T19:50:06.0128158-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="saque30retorna1Nota20E1Nota10" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="f2901349-0bc0-781e-978f-4e8dfa116aaa">
+      <Execution id="6c912212-a201-4b11-99f4-9e4ab77e05b3" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque30retorna1Nota20E1Nota10" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" executionId="6c912212-a201-4b11-99f4-9e4ab77e05b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6c912212-a201-4b11-99f4-9e4ab77e05b3" testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" testName="saque30retorna1Nota20E1Nota10" computerName="MGA-NODA" duration="00:00:00.0275682" startTime="2013-08-29T19:50:05.8537999-03:00" endTime="2013-08-29T19:50:06.0038149-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c912212-a201-4b11-99f4-9e4ab77e05b3">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreEquivalent failed. The number of elements in the collections do not match. Expected:&lt;2&gt;. Actual:&lt;1&gt;.</Message>
+          <StackTrace>   em DojoTest.ProgramTest.saque30retorna1Nota20E1Nota10() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

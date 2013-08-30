@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5f366d0-5f9e-43bf-8141-02a7b64a051f" name="fabricio.noda@MGA-NODA 2013-08-29 20:34:02" runUser="BENNER\fabricio.noda" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856062cb-b0a4-493e-8a3d-c547d0aec54d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="fabricio.noda_MGA-NODA 2013-08-29 20_34_02">
+      <DeploymentItem filename="C:\projetos-inov\MonitorSMS\Dojo-20130829\Dojo-20130829\bin\Debug\Dojo-20130829.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-29T20:34:02.7095581-03:00" queuing="2013-08-29T20:34:02.7655581-03:00" start="2013-08-29T20:34:02.7685581-03:00" finish="2013-08-29T20:34:02.9375581-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="saque422" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="c92d6d82-b7c8-8c54-c07b-b9d0383e981c">
+      <Execution id="3d007cbd-096c-4324-bde4-4a46b5ab54b5" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque422" />
+    </UnitTest>
+    <UnitTest name="saque13" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5">
+      <Execution id="4b443510-f409-4f08-a501-430da2d5ae7c" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque13" />
+    </UnitTest>
+    <UnitTest name="saque10retorna10" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="a8b3812e-5983-9ea9-c9b6-09fd99966ce5">
+      <Execution id="06bd7a7b-f343-42b4-9f77-31bba23f886b" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque10retorna10" />
+    </UnitTest>
+    <UnitTest name="saque30retorna1Nota20E1Nota10" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="f2901349-0bc0-781e-978f-4e8dfa116aaa">
+      <Execution id="5277826f-5666-42ac-97ed-7901eda4030e" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque30retorna1Nota20E1Nota10" />
+    </UnitTest>
+    <UnitTest name="saque45retorna2Nota20E1Nota5" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="ab9b4e93-05ac-019a-7b99-d9d46c245f94">
+      <Execution id="88d284c7-190c-4ce7-8edb-ca278828ba82" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque45retorna2Nota20E1Nota5" />
+    </UnitTest>
+    <UnitTest name="saque112" storage="c:\projetos-inov\monitorsms\dojo-20130829\dojotest\bin\debug\dojotest.dll" id="0c515bf2-cacb-b50a-9e88-241819e6260b">
+      <Execution id="0ec52319-069c-466a-bf42-da12d2db69de" />
+      <TestMethod codeBase="C:/projetos-inov/MonitorSMS/Dojo-20130829/DojoTest/bin/Debug/DojoTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DojoTest.ProgramTest, DojoTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="saque112" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0c515bf2-cacb-b50a-9e88-241819e6260b" executionId="0ec52319-069c-466a-bf42-da12d2db69de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5" executionId="4b443510-f409-4f08-a501-430da2d5ae7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8b3812e-5983-9ea9-c9b6-09fd99966ce5" executionId="06bd7a7b-f343-42b4-9f77-31bba23f886b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab9b4e93-05ac-019a-7b99-d9d46c245f94" executionId="88d284c7-190c-4ce7-8edb-ca278828ba82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c92d6d82-b7c8-8c54-c07b-b9d0383e981c" executionId="3d007cbd-096c-4324-bde4-4a46b5ab54b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" executionId="5277826f-5666-42ac-97ed-7901eda4030e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0ec52319-069c-466a-bf42-da12d2db69de" testId="0c515bf2-cacb-b50a-9e88-241819e6260b" testName="saque112" computerName="MGA-NODA" duration="00:00:00.0120710" startTime="2013-08-29T20:34:02.7705581-03:00" endTime="2013-08-29T20:34:02.9035581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ec52319-069c-466a-bf42-da12d2db69de">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b443510-f409-4f08-a501-430da2d5ae7c" testId="9bc62e9b-4fb0-b777-da67-ff1e8a5b44a5" testName="saque13" computerName="MGA-NODA" duration="00:00:00.0135287" startTime="2013-08-29T20:34:02.9045581-03:00" endTime="2013-08-29T20:34:02.9195581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b443510-f409-4f08-a501-430da2d5ae7c">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.AreEquivalent failed. The number of elements in the collections do not match. Expected:&lt;2&gt;. Actual:&lt;3&gt;.</Message>
+          <StackTrace>   em DojoTest.ProgramTest.saque13() na C:\projetos-inov\MonitorSMS\Dojo-20130829\DojoTest\ProgramTest.cs:linha 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06bd7a7b-f343-42b4-9f77-31bba23f886b" testId="a8b3812e-5983-9ea9-c9b6-09fd99966ce5" testName="saque10retorna10" computerName="MGA-NODA" duration="00:00:00.0001658" startTime="2013-08-29T20:34:02.9205581-03:00" endTime="2013-08-29T20:34:02.9215581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06bd7a7b-f343-42b4-9f77-31bba23f886b">
+    </UnitTestResult>
+    <UnitTestResult executionId="88d284c7-190c-4ce7-8edb-ca278828ba82" testId="ab9b4e93-05ac-019a-7b99-d9d46c245f94" testName="saque45retorna2Nota20E1Nota5" computerName="MGA-NODA" duration="00:00:00.0001787" startTime="2013-08-29T20:34:02.9225581-03:00" endTime="2013-08-29T20:34:02.9245581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88d284c7-190c-4ce7-8edb-ca278828ba82">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d007cbd-096c-4324-bde4-4a46b5ab54b5" testId="c92d6d82-b7c8-8c54-c07b-b9d0383e981c" testName="saque422" computerName="MGA-NODA" duration="00:00:00.0001804" startTime="2013-08-29T20:34:02.9245581-03:00" endTime="2013-08-29T20:34:02.9265581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d007cbd-096c-4324-bde4-4a46b5ab54b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="5277826f-5666-42ac-97ed-7901eda4030e" testId="f2901349-0bc0-781e-978f-4e8dfa116aaa" testName="saque30retorna1Nota20E1Nota10" computerName="MGA-NODA" duration="00:00:00.0001757" startTime="2013-08-29T20:34:02.9265581-03:00" endTime="2013-08-29T20:34:02.9285581-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5277826f-5666-42ac-97ed-7901eda4030e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
